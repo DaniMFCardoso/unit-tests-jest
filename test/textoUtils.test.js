@@ -95,7 +95,7 @@ describe("TextoUtils", () => {
             expect(utils.paraSlug("Olá Mundo!")).toBe("ola-mundo");
         });
 
-        test("deve remover acentos", () => {
+        test("deve remover acentos", () => { 
             expect(utils.paraSlug("ação coração açúcar")).toBe(
                 "acao-coracao-acucar"
             );
